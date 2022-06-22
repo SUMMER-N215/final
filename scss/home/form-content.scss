@@ -1,0 +1,62 @@
+.form-content{
+max-width: $home-form-width;
+//background-color: aqua;
+min-height: 200px;
+
+margin: $center;
+
+.top-boxes{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+    .long-box{
+        width: 500px;
+
+
+
+    }
+    input{
+        width: 344px;
+        height: 58px;
+        padding-left: 10px;
+        border: 3px solid $site-blue;
+        
+    }
+
+    i{
+
+        position: relative;
+        z-index: -50;
+    }
+}
+
+.select-boxes{
+
+    width: $home-form-width;
+    height: 60px;
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    
+h3{
+margin-top: 15px;
+    align-items: center;
+}
+
+    select{
+        display: flex;
+        width: 103px;
+        height: 58px;
+        
+    }
+}
+
+.message-box{
+width: 818px;
+height: 192px;
+}
+
+}

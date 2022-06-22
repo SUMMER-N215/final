@@ -1,0 +1,10 @@
+footer {
+    max-width: $banner-footer-width;
+    margin: $center;
+    height: 50px;
+    background-color: $site-blue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
